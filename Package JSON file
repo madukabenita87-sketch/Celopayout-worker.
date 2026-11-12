@@ -1,0 +1,14 @@
+{
+  "name": "celo-payout-worker",
+  "version": "1.0.0",
+  "description": "Background worker to poll Base44 and execute cUSD payouts on Celo",
+  "main": "payoutWorker.js",
+  "type": "module",
+  "scripts": {
+    "start": "node payoutWorker.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "viem": "^2.21.0"
+  }
+}
